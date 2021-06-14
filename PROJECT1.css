@@ -1,0 +1,339 @@
+
+
+.body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:pink
+ 
+}
+
+
+/******************************************************************************* THIS STYLE FOR FIRST PAGE*************************************************************** */
+
+.navbar
+{
+    background-color:rgb(245, 239, 239);
+    width:100%;
+    top:0px;
+    margin-top:0px;
+    
+}.firts-container
+{
+  color:white;
+  position:sticky;
+
+top: 0;
+  margin-top:0px;
+}
+.head1
+{
+    font-size:30px;  
+    color:brown;
+    margin-top:15px;
+    margin-left:30px;
+    float:left;
+    padding-bottom: 0px;
+}
+#logo
+{
+    width:80px;
+    height:80px;
+    padding-bottom: 0px;
+}
+
+.dropbtn {
+    background-color:rgb(245, 239, 239);
+    font-size : 20px;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(110, 37, 37);
+     border: none;
+    padding-right:2%;
+    margin-left:2%;
+    margin-right:2%;
+     
+   }
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width:160px;
+
+  }
+  .dropdown-content a:hover {
+      color:crimson;
+      background-color: white;
+    }
+  
+  
+.dropdown-content a {
+    color: black;
+    padding: 10px 6px;
+    text-decoration: none;
+    display: block;
+
+    
+
+  }
+
+  .home
+  {
+    list-style-type:none;
+     color:rgb(110, 37, 37);
+     border:none;
+      font-weight: 100;
+     text-decoration: none;
+     font-size: 20px;
+     font-style: normal;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1;
+  }
+a.home:hover
+{
+  background-color: rgb(204, 12, 92);
+  color:white;
+  text-decoration: none;
+}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+      background-color:white;
+    }
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(204, 12, 92);
+    color:white;
+}
+
+
+
+.centered2 {
+  position: fixed;
+  top: 35%;
+  LEFT:30%;
+ FONT-SIZE:35PX;
+ letter-spacing: 5PX;
+ font-family: 'Times New Roman', Times, serif;
+  
+}
+#wildlife{
+  padding-right:70px ;
+}
+
+#SECOND_HEAD
+{
+  PADDING-LEFT:20%;
+  letter-spacing: 0PX;
+  
+}
+.column {
+  float: left;
+  
+  padding:10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* *************************************************************************************END***********THIS STYLE FOR FIRST PAGE****************************************************************************************************************************************/
+
+
+/************************************************************************************THIS STYLE FOR AMARKHANTAK PAGE***************************************************************** */
+.amar_head1
+{
+    color:white;
+    font-size:25px;
+    font-style: bold;
+    background-color: rgb(204, 12, 92);
+    width:100%;
+     height:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+    margin-bottom: 240px;
+}
+
+#about
+{
+    width:100%;
+    height:500px;
+    background: rgba(100, 10, 10, 0.8);
+    filter: alpha(opacity=80);
+    margin-top:20px;
+    padding:40px;
+    
+}
+
+.point
+{
+    color:white;
+    font-family: bold;
+    font-size: 20px;
+    padding-top:10px;
+    list-style-type: disc;
+    
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding-left:300px;
+}
+ img
+{
+  width:75%;
+ 
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position:absolute;
+  top: 35%;
+  width:10%;
+  padding: 50px;
+  margin-top: -50px;
+  color:WHITE;
+  user-select: none;
+  -webkit-user-select: none;
+  font-size: 30PX;
+  
+}
+.prev
+{
+  PADDING-LEFT:295PX;
+}
+
+.next
+{
+  PADDING-RIGHT:230PX;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  COLOR:BLUE;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-size: 22px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.3;
+}
+
+.active,
+.demo:hover {
+  opacity: 8;
+}
+
+.containe {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container img {vertical-align: middle;}
+
+.container .hotel
+{
+
+  position: absolute;
+  bottom: 0;
+  
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 1110px;
+  padding:20px;
+ }
+
+ a#detail:hover,a#detail:visited,a#detail:focus{
+   background-color:white;
+   transform: scale(4);
+ }
+
+ .head12
+ {
+  color:rgb(99,21,21);
+  font-size:44px;
+  padding-bottom:10px;
+  letter-spacing: 5px;
+  font-family: 'Times New Roman', Times, serif;font-weight: bold;
+   padding-left:550px;
+ }
+ #map
+ {
+   padding-left:300px;
+   width:85%;
+ }
+
+.demo cursor
+{
+  width:100%;
+  height:30%;
+}
+
+/***************************************************************************************************************************/
+
+/**************************************************************************************************************************************************************/
